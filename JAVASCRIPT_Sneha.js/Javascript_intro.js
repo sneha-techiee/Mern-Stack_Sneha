@@ -1,0 +1,6 @@
+console.log("SPARK"); // you can use console.log to print something and node Javascript_intro.js to run the file 
+console.log('a'); // a is characater we can use single quotes or double quotes to define a string in JavaScript, both are valid and will work the same way, but it is recommended to use single quotes for strings in JavaScript because it is more concise and easier to read.
+console.log("Hello World"); // Hello World is a string and it will be printed as it is, because it is enclosed in double quotes, it will be treated as a string and not as a variable or a keyword in JavaScript.
+console.log(10); // 10 is a number and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a number and not as a string in JavaScript.
+console.log(true); // true is a boolean value and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a boolean value and not as a string in JavaScript.   
+console.log(@); // @ is a special character and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a special character and not as a string in JavaScript.
