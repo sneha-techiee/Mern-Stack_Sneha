@@ -44,3 +44,22 @@ Explanation: Incorrect answer. Selected answer(s): TRUE. The senior's perspectiv
 let respects {} blocks.*/
 const c = 30;// const is block-scopped variable and cannot be updated or re-declared within the same scope 
 // block-scopped variable is a variable that is only accessible within the block of code in which it is defined
+
+
+// Time to understand const :- We can understand this through an example
+
+function constTest(){
+const z =1;
+console.log(z);
+
+const z =3;
+console.log(z); // output will be an error, SyntaxError: Identifier 'z' has already been declared because const is block-scoped and cannot be re-declared withtin the same scope, so it will throw an error when we try to re-declare the variable z within the same function scope.
+}
+console.log(constTest());
+
+// Also, while building a project, make sure to use let(10%) and const (80-90%) 
+const API_KEY = "123344445";
+const OPENAI_URL = "https://api.openai.com/v1/engines/davinci-codex/completions";  // these are constants because they are not going to change throughout the program, so it is better to use const for these variables to prevent accidental re-assignment and to make the code more readable and maintainable.    
+
+
+
