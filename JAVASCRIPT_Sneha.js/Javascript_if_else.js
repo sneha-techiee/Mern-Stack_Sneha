@@ -63,3 +63,6 @@ function studentResult(name, maths, science, english) { // data types are not ne
 
 studentResult("Sneha", 95, 88, 92);
 // for now we have to manage with this code, after that we will learn readline
+studentResult("Khushi", 85, 87, 90);
+studentResult("amit", 80, 80, 80);
+

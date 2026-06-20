@@ -52,7 +52,7 @@ function constTest(){
 const z =1;
 console.log(z);
 
-const z =3;
+// const z =3;
 console.log(z); // output will be an error, SyntaxError: Identifier 'z' has already been declared because const is block-scoped and cannot be re-declared withtin the same scope, so it will throw an error when we try to re-declare the variable z within the same function scope.
 }
 console.log(constTest());
@@ -63,3 +63,25 @@ const OPENAI_URL = "https://api.openai.com/v1/engines/davinci-codex/completions"
 
 
 
+//Exercise on variables 
+// Create variables:
+
+// name
+// age
+// college
+// branch
+// sgpa
+// isStudent
+
+const name = "Sneha";
+const age = 19;
+let college = "Chandigarh group of colleges";
+let branch = "B.Tech CSE";
+let sgpa = 8.86;
+const isStudent = true;
+
+
+// undefined
+let x;
+console.log(x)
+// it will give u undefined, because u have declared it but haven't assigned any value.
