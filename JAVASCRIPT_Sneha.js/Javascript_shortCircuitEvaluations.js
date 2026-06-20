@@ -61,3 +61,26 @@ const showpics = () => {
 
  // so, 
  isShifted && showpics();
+
+ // ||- OR
+ // if A is useful take A, otherwise go for B
+ // if A is truthy - return A
+ // if A is falsy - return B
+
+ // Imagine a website where users can set username
+ let username = "Alexa";
+  let displayname = username || "Guests";
+   console.log(displayname);
+
+   // or 
+   let username1;
+   let displayname1 = username1 || "Guests";
+   console.log(displayname1);
+   // here username1 is undefined so it went to guests 
+
+//or 
+let username2;
+let username3;
+let displayname3 = username2 || username3;
+console.log(displayname3);
+// undefined is the output it given me, when both are falsy
