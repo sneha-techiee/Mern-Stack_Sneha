@@ -27,4 +27,37 @@ let isloggedin = true;
  //if the variable is true, console.log() will print only then
 
  //practical use case 2 :- prevent error 
- 
+ // accessing data that may not exist
+//  let user = {
+//     name : "Sneha", 
+//     email : "sneha@gmail.com"
+//  };
+
+//  console.log(user.name); // output will be Sneha right
+//  let user = null;
+//  console.log(user.name);
+ //TypeError: Cannot read properties of null (reading 'name'), null has no properites
+
+ //solution to this , use && 
+ let user2 = null;
+ console.log(user2 && user2.name);
+// it will print null, this is how we prevented the error
+
+
+// one of the biggest uses :- Practical use case 3 :- Conditional Rendering (React)
+let isShifted = true;
+// lets say u have a function called showpics()
+function showpics(){
+    console.log("Here are the pictures!!!");
+}
+/* 
+or by using arrow-function
+const showpics = () => {
+    console.log("hello!!");
+    }
+ isShifted && console.log(showpics());
+ // right now the function doesnot return anything and when there is no return value, it automatically will return undefined
+ */
+
+ // so, 
+ isShifted && showpics();
