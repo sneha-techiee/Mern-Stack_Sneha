@@ -3,4 +3,8 @@ console.log('a'); // a is characater we can use single quotes or double quotes t
 console.log("Hello World"); // Hello World is a string and it will be printed as it is, because it is enclosed in double quotes, it will be treated as a string and not as a variable or a keyword in JavaScript.
 console.log(10); // 10 is a number and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a number and not as a string in JavaScript.
 console.log(true); // true is a boolean value and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a boolean value and not as a string in JavaScript.   
-console.log(@); // @ is a special character and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a special character and not as a string in JavaScript.
+console.log('@'); // @ is a special character and it will be printed as it is, because it is not enclosed in quotes, it will be treated as a special character and not as a string in JavaScript.
+let name = "aman";
+
+console.log(name)
+console.log(typeof name);

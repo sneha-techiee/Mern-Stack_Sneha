@@ -66,3 +66,23 @@ studentResult("Sneha", 95, 88, 92);
 studentResult("Khushi", 85, 87, 90);
 studentResult("amit", 80, 80, 80);
 
+
+// Advanced understanding of control flow ie if-else, its truthy below
+    if("Hello"){
+        console.log("runs");
+    }
+    // but if i write any falsy 
+    if(""){
+        console.log("runs");
+
+    }
+    // falsy has 
+    /*
+    "" // remember this " " is truthy, cuz string with any space character even 1 space empty character it will still considered a s true
+    NaN
+    null
+    0
+    0n
+    -0
+    undefined
+    */
