@@ -85,3 +85,18 @@ const isStudent = true;
 let x;
 console.log(x)
 // it will give u undefined, because u have declared it but haven't assigned any value.
+
+//NULL - it means the variable intentionally has no value , it is used when u want to clear a value or set it to ' no value'
+let data = null
+console.log(data)
+
+
+/* Summarizing javascript variables 
+String = "SPARK"
+Boolean = true
+Number = 10000
+undefined = let x;
+null = null // no value
+*/
+
+
